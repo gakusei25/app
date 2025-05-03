@@ -1,0 +1,48 @@
+com.rpgmaker.game.IAP-lifecycle-process-2.7.0-0 C:\Users\sali\.gradle\caches\transforms-4\014d536e586204414c307980a68bff5f\transformed\lifecycle-process-2.7.0\res
+com.rpgmaker.game.IAP-ads-adservices-java-1.0.0-beta05-1 C:\Users\sali\.gradle\caches\transforms-4\0e0f807375caa6e50a48baf6d328ec7c\transformed\ads-adservices-java-1.0.0-beta05\res
+com.rpgmaker.game.IAP-profileinstaller-1.3.1-2 C:\Users\sali\.gradle\caches\transforms-4\0feec7d4839097f64ec1c22a1fab7300\transformed\profileinstaller-1.3.1\res
+com.rpgmaker.game.IAP-core-1.13.0-3 C:\Users\sali\.gradle\caches\transforms-4\12b2681c0bf1e8b6755e0181fd63cf9a\transformed\core-1.13.0\res
+com.rpgmaker.game.IAP-fragment-1.5.4-4 C:\Users\sali\.gradle\caches\transforms-4\20a15d3bcfe8a20edf98863d11e5daa2\transformed\fragment-1.5.4\res
+com.rpgmaker.game.IAP-constraintlayout-2.0.1-5 C:\Users\sali\.gradle\caches\transforms-4\26335d29d29232a856c4c8718b0e3952\transformed\constraintlayout-2.0.1\res
+com.rpgmaker.game.IAP-material-1.12.0-6 C:\Users\sali\.gradle\caches\transforms-4\3112299e608a8045620aebe85fd77ffa\transformed\material-1.12.0\res
+com.rpgmaker.game.IAP-play-services-base-18.3.0-7 C:\Users\sali\.gradle\caches\transforms-4\32c7aec4238681df778261b97b103c1a\transformed\play-services-base-18.3.0\res
+com.rpgmaker.game.IAP-drawerlayout-1.1.1-8 C:\Users\sali\.gradle\caches\transforms-4\38559c13441b74f344fade0764340c90\transformed\drawerlayout-1.1.1\res
+com.rpgmaker.game.IAP-browser-1.4.0-9 C:\Users\sali\.gradle\caches\transforms-4\3b87bc98ec6bd6e1718e5085a0dfda07\transformed\browser-1.4.0\res
+com.rpgmaker.game.IAP-lifecycle-viewmodel-2.7.0-10 C:\Users\sali\.gradle\caches\transforms-4\3cc93730be09cae08078d77d2bd4e77f\transformed\lifecycle-viewmodel-2.7.0\res
+com.rpgmaker.game.IAP-play-services-ads-lite-23.2.0-11 C:\Users\sali\.gradle\caches\transforms-4\3d8ed17bd9c92c2ce2a707195aaf559d\transformed\play-services-ads-lite-23.2.0\res
+com.rpgmaker.game.IAP-core-runtime-2.2.0-12 C:\Users\sali\.gradle\caches\transforms-4\3e864fb73616a1dc51190cd6301b2b8e\transformed\core-runtime-2.2.0\res
+com.rpgmaker.game.IAP-lifecycle-livedata-core-2.7.0-13 C:\Users\sali\.gradle\caches\transforms-4\42cfee6ab9dec3b8f2b19ebd4be769b7\transformed\lifecycle-livedata-core-2.7.0\res
+com.rpgmaker.game.IAP-savedstate-1.2.1-14 C:\Users\sali\.gradle\caches\transforms-4\459b728be6f243a7a0924e40d3decfd6\transformed\savedstate-1.2.1\res
+com.rpgmaker.game.IAP-annotation-experimental-1.4.0-15 C:\Users\sali\.gradle\caches\transforms-4\4cd4427b190db199f63ab19485d2c94b\transformed\annotation-experimental-1.4.0\res
+com.rpgmaker.game.IAP-billing-7.0.0-16 C:\Users\sali\.gradle\caches\transforms-4\515bef8674cf0acfbe939944c33d12b7\transformed\billing-7.0.0\res
+com.rpgmaker.game.IAP-lifecycle-runtime-ktx-2.7.0-17 C:\Users\sali\.gradle\caches\transforms-4\52a98be258a12800611c08fee228c0bf\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.rpgmaker.game.IAP-webkit-1.11.0-18 C:\Users\sali\.gradle\caches\transforms-4\52faa769431984323ac94e0f125c9b14\transformed\webkit-1.11.0\res
+com.rpgmaker.game.IAP-activity-1.8.0-19 C:\Users\sali\.gradle\caches\transforms-4\58ec28613cb6e1b748231f7aaef3ae0e\transformed\activity-1.8.0\res
+com.rpgmaker.game.IAP-core-common-2.0.3-20 C:\Users\sali\.gradle\caches\transforms-4\5a2adced075921957eb9dc69f714629c\transformed\core-common-2.0.3\res
+com.rpgmaker.game.IAP-startup-runtime-1.1.1-21 C:\Users\sali\.gradle\caches\transforms-4\5e1a49de2fb2dee12d39f3e3fe61d1ca\transformed\startup-runtime-1.1.1\res
+com.rpgmaker.game.IAP-cardview-1.0.0-22 C:\Users\sali\.gradle\caches\transforms-4\66643fa90d48b37d4842653ded349daf\transformed\cardview-1.0.0\res
+com.rpgmaker.game.IAP-coordinatorlayout-1.1.0-23 C:\Users\sali\.gradle\caches\transforms-4\716252d269efd0f6d8d1ef0f38716cf5\transformed\coordinatorlayout-1.1.0\res
+com.rpgmaker.game.IAP-emoji2-1.3.0-24 C:\Users\sali\.gradle\caches\transforms-4\7274ca3cb8379ad40d76736771f9d868\transformed\emoji2-1.3.0\res
+com.rpgmaker.game.IAP-lifecycle-runtime-2.7.0-25 C:\Users\sali\.gradle\caches\transforms-4\7bbbd68d2372c0f3b6bd0d74f5011c79\transformed\lifecycle-runtime-2.7.0\res
+com.rpgmaker.game.IAP-appcompat-1.7.0-26 C:\Users\sali\.gradle\caches\transforms-4\7c091e6c095981ec3a6a985bce9ca277\transformed\appcompat-1.7.0\res
+com.rpgmaker.game.IAP-work-runtime-2.7.0-27 C:\Users\sali\.gradle\caches\transforms-4\8155d4cf58ab0048e35b5705445ac387\transformed\work-runtime-2.7.0\res
+com.rpgmaker.game.IAP-transition-1.5.0-28 C:\Users\sali\.gradle\caches\transforms-4\8e858e023a5a04365e6ca143c8710604\transformed\transition-1.5.0\res
+com.rpgmaker.game.IAP-emoji2-views-helper-1.3.0-29 C:\Users\sali\.gradle\caches\transforms-4\92675913c7b06c005379e082a26f870d\transformed\emoji2-views-helper-1.3.0\res
+com.rpgmaker.game.IAP-lifecycle-livedata-core-ktx-2.7.0-30 C:\Users\sali\.gradle\caches\transforms-4\976832757eafad39f1bdfa75c3efb83b\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.rpgmaker.game.IAP-lifecycle-livedata-2.7.0-31 C:\Users\sali\.gradle\caches\transforms-4\98b02eddea77cd180c93a27e05c8f3b1\transformed\lifecycle-livedata-2.7.0\res
+com.rpgmaker.game.IAP-core-ktx-1.13.0-32 C:\Users\sali\.gradle\caches\transforms-4\9c5649dbe54aa4ebc9b9d21ddd81db64\transformed\core-ktx-1.13.0\res
+com.rpgmaker.game.IAP-viewpager2-1.0.0-33 C:\Users\sali\.gradle\caches\transforms-4\a38e45d5c8181ee44bcd1ab6bba110d6\transformed\viewpager2-1.0.0\res
+com.rpgmaker.game.IAP-play-services-ads-23.2.0-34 C:\Users\sali\.gradle\caches\transforms-4\a84870c270ebd2c12ba9c4d74320c9d0\transformed\play-services-ads-23.2.0\res
+com.rpgmaker.game.IAP-lifecycle-service-2.7.0-35 C:\Users\sali\.gradle\caches\transforms-4\afeebd26cd705250a1775e897187cd27\transformed\lifecycle-service-2.7.0\res
+com.rpgmaker.game.IAP-lifecycle-viewmodel-savedstate-2.7.0-36 C:\Users\sali\.gradle\caches\transforms-4\b2765cd44af397555a3f8745095556f6\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.rpgmaker.game.IAP-recyclerview-1.1.0-37 C:\Users\sali\.gradle\caches\transforms-4\b9abd64f5e31a8483674cc07974ab59c\transformed\recyclerview-1.1.0\res
+com.rpgmaker.game.IAP-ads-adservices-1.0.0-beta05-38 C:\Users\sali\.gradle\caches\transforms-4\b9c40cf91ce90c05016e3675e06f0c87\transformed\ads-adservices-1.0.0-beta05\res
+com.rpgmaker.game.IAP-play-services-basement-18.3.0-39 C:\Users\sali\.gradle\caches\transforms-4\cceced0cdec250e8877edebd67d63d8b\transformed\play-services-basement-18.3.0\res
+com.rpgmaker.game.IAP-appcompat-resources-1.7.0-40 C:\Users\sali\.gradle\caches\transforms-4\e39e6b436e4210df8f2512700c25a8de\transformed\appcompat-resources-1.7.0\res
+com.rpgmaker.game.IAP-pngs-41 C:\Users\sali\Desktop\awao\SHARP SET LLC\JUPITER\JJC DROID KIT\my app 1-3-25\MyApplication003\IAP\build\generated\res\pngs\release
+com.rpgmaker.game.IAP-resValues-42 C:\Users\sali\Desktop\awao\SHARP SET LLC\JUPITER\JJC DROID KIT\my app 1-3-25\MyApplication003\IAP\build\generated\res\resValues\release
+com.rpgmaker.game.IAP-mergeReleaseResources-43 C:\Users\sali\Desktop\awao\SHARP SET LLC\JUPITER\JJC DROID KIT\my app 1-3-25\MyApplication003\IAP\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.rpgmaker.game.IAP-mergeReleaseResources-44 C:\Users\sali\Desktop\awao\SHARP SET LLC\JUPITER\JJC DROID KIT\my app 1-3-25\MyApplication003\IAP\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.rpgmaker.game.IAP-release-45 C:\Users\sali\Desktop\awao\SHARP SET LLC\JUPITER\JJC DROID KIT\my app 1-3-25\MyApplication003\IAP\build\intermediates\merged_res\release\mergeReleaseResources
+com.rpgmaker.game.IAP-main-46 C:\Users\sali\Desktop\awao\SHARP SET LLC\JUPITER\JJC DROID KIT\my app 1-3-25\MyApplication003\IAP\src\main\res
+com.rpgmaker.game.IAP-release-47 C:\Users\sali\Desktop\awao\SHARP SET LLC\JUPITER\JJC DROID KIT\my app 1-3-25\MyApplication003\IAP\src\release\res

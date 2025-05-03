@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jupiter Jackpot</string>
+    <string name="is_gdd_msg">請至 Google Play 商店上下載本遊戲。</string>
+    <string name="are_you_exit_title">離開</string>
+    <string name="are_you_exit_msg">你要結束遊戲了嗎？</string>
+    <string name="are_you_exit_yes">是</string>
+    <string name="are_you_exit_no">否</string>
+    <string name="are_you_Ok">確定</string>
+    <string name="are_you_Cancel">取消</string>
+    <string name="are_you_sub_msg">是否訂閱此商品？</string>
+    <string name="are_you_unsub_msg">是否取消訂閱此商品？</string>
+    <string name="not_internet_msg">尚未連接至網路,請檢查您的連線並再試一次</string>
+
+    <string name="share_String01">外部儲存權限已被拒絕</string>
+    <string name="share_String02">無法存取外部儲存空間</string>
+    <string name="share_String03">分享測驗結果</string>
+    <string name="share_String04">無法建立圖片資料夾</string>
+
+</resources>

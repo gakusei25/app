@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Jupiter Jackpot</string>
+
+    <string name="is_gdd_msg">Please go to Google Play Store to download this Game.</string>
+    <string name="are_you_exit_title">EXIT</string>
+    <string name="are_you_exit_msg">Do you want to exit the game?</string>
+    <string name="are_you_exit_yes">Yes</string>
+    <string name="are_you_exit_no">No</string>
+    <string name="are_you_Ok">OK</string>
+    <string name="are_you_Cancel">Cancel</string>
+    <string name="are_you_sub_msg" translatable="false">Do you want to subscribe to this product?</string>
+    <string name="are_you_unsub_msg" translatable="false">Do you want to unsubscribe from this product?</string>
+    <string name="not_internet_msg">Not connected to the Internet. Please check your connection and try again</string>
+    <!--  是否開啟測試模式  -->
+    <!-- 如要發佈到Play商店時，記得將test_mode的值設為false -->
+    <string name="test_mode" translatable="false">true</string>
+
+    <string name="share_String01">External storage permission denied</string>
+    <string name="share_String02">Unable to access external storage</string>
+    <string name="share_String03" translatable="false">Share Quiz Results</string>
+    <string name="share_String04">Unable to create picture folder</string>
+
+    <!-- adMob - 廣告應用程式ID  -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!-- 如要測試可以到以下連結查看測試用的廣告單元ID -->
+    <!-- https://developers.google.com/admob/android/test-ads -->
+
+    <!-- adMob - 橫幅廣告單元ID -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+    <!-- adMob - 插頁式廣告單元ID -->
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- adMob - 獎勵廣告單元ID -->
+    <string name="rewarded_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+    <!-- adMob - 插頁式獎勵廣告單元ID -->
+    <string name="rewarded_interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/5354046379</string>
+
+    <!-- adMob - 插頁式獎勵廣告單元ID -->
+    <string name="app_open_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/9257395921</string>
+
+
+    <!-- IAP - 應用程式授權金鑰 -->
+    <string name="license_key" translatable="false">google play license key</string>
+
+
+</resources>

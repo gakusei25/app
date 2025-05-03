@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jupiter Jackpot</string>
+    <string name="is_gdd_msg">このゲームをダウンロードするためにGoogle Playストアに行ってください。</string>
+    <string name="are_you_exit_title">退出</string>
+    <string name="are_you_exit_msg">ゲームを終了しますか？</string>
+    <string name="are_you_exit_yes">はい</string>
+    <string name="are_you_exit_no">いいえ</string>
+    <string name="are_you_Ok">はい</string>
+    <string name="are_you_Cancel">キャンセル</string>
+    <string name="not_internet_msg">インターネットに接続されていません。接続を確認して、再試行してください。</string>
+    <string name="share_String01">外部ストレージの権限が拒否されました</string>
+    <string name="share_String02">外部ストレージにアクセスできません</string>
+</resources>

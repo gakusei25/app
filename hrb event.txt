@@ -1,0 +1,1998 @@
+◆If：HORSE BET is ON
+  ◆Control Switches：#0155 hrb rndm02-1 = OFF
+  ◆Control Switches：#0156 hrb rndm02-2 = OFF
+  ◆Control Switches：#0157 hrb rndm02-3 = OFF
+  ◆Control Switches：#0158 hrb rndm02-4 = OFF
+  ◆Control Switches：#0159 hrb rndm02-5 = OFF
+  ◆Control Switches：#0160 hrb rndm02-6 = OFF
+  ◆Control Switches：#0161 hrb rndm02-7 = OFF
+  ◆Label：HRB ICON SELECT 01 TOP
+  ◆If：hrb rndm01-1 is ON
+    ◆If：bet horse 1 is ON
+      ◆Control Variables：#0078 horse_icon02 = Random 1..6
+      ◆If：horse_icon02 = 1
+        ◆Control Switches：#0156 hrb rndm02-2 = ON
+        ◆
+      ：Else
+        ◆If：horse_icon02 = 2
+          ◆Control Switches：#0157 hrb rndm02-3 = ON
+          ◆
+        ：Else
+          ◆If：horse_icon02 = 3
+            ◆Control Switches：#0158 hrb rndm02-4 = ON
+            ◆
+          ：Else
+            ◆If：horse_icon02 = 4
+              ◆Control Switches：#0159 hrb rndm02-5 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 5
+                ◆Control Switches：#0160 hrb rndm02-6 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 6
+                  ◆Control Switches：#0161 hrb rndm02-7 = ON
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：End
+        ◆
+      ：End
+      ◆
+    ：Else
+      ◆If：bet horse 2 is ON
+        ◆If：horse_icon02 = 1
+          ◆Control Variables：#0078 horse_icon02 = Random 1..6
+          ◆Control Switches：#0155 hrb rndm02-1 = ON
+          ◆
+        ：Else
+          ◆If：horse_icon02 = 2
+            ◆Control Switches：#0157 hrb rndm02-3 = ON
+            ◆
+          ：Else
+            ◆If：horse_icon02 = 3
+              ◆Control Switches：#0158 hrb rndm02-4 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 4
+                ◆Control Switches：#0159 hrb rndm02-5 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 5
+                  ◆Control Switches：#0160 hrb rndm02-6 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 6
+                    ◆Control Switches：#0161 hrb rndm02-7 = ON
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：End
+        ◆
+      ：Else
+        ◆If：bet horse 3 is ON
+          ◆If：horse_icon02 = 1
+            ◆Control Variables：#0078 horse_icon02 = Random 1..6
+            ◆Control Switches：#0155 hrb rndm02-1 = ON
+            ◆
+          ：Else
+            ◆If：horse_icon02 = 2
+              ◆Control Switches：#0156 hrb rndm02-2 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 3
+                ◆Control Switches：#0158 hrb rndm02-4 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 4
+                  ◆Control Switches：#0159 hrb rndm02-5 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 5
+                    ◆Control Switches：#0160 hrb rndm02-6 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 6
+                      ◆Control Switches：#0161 hrb rndm02-7 = ON
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：Else
+          ◆If：bet horse 4 is ON
+            ◆If：horse_icon02 = 1
+              ◆Control Variables：#0078 horse_icon02 = Random 1..6
+              ◆Control Switches：#0155 hrb rndm02-1 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 2
+                ◆Control Switches：#0156 hrb rndm02-2 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 3
+                  ◆Control Switches：#0157 hrb rndm02-3 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 4
+                    ◆Control Switches：#0159 hrb rndm02-5 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 5
+                      ◆Control Switches：#0160 hrb rndm02-6 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 6
+                        ◆Control Switches：#0161 hrb rndm02-7 = ON
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：Else
+            ◆If：bet horse 5 is ON
+              ◆If：horse_icon02 = 1
+                ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                ◆Control Switches：#0155 hrb rndm02-1 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 2
+                  ◆Control Switches：#0156 hrb rndm02-2 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 3
+                    ◆Control Switches：#0157 hrb rndm02-3 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 4
+                      ◆Control Switches：#0158 hrb rndm02-4 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 5
+                        ◆Control Switches：#0160 hrb rndm02-6 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 6
+                          ◆Control Switches：#0161 hrb rndm02-7 = ON
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：Else
+              ◆If：bet horse 6 is ON
+                ◆If：horse_icon02 = 1
+                  ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                  ◆Control Switches：#0155 hrb rndm02-1 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 2
+                    ◆Control Switches：#0156 hrb rndm02-2 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 3
+                      ◆Control Switches：#0157 hrb rndm02-3 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 4
+                        ◆Control Switches：#0158 hrb rndm02-4 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 5
+                          ◆Control Switches：#0159 hrb rndm02-5 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 6
+                            ◆Control Switches：#0161 hrb rndm02-7 = ON
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：Else
+                ◆If：bet horse 7 is ON
+                  ◆If：horse_icon02 = 1
+                    ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                    ◆Control Switches：#0155 hrb rndm02-1 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 2
+                      ◆Control Switches：#0156 hrb rndm02-2 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 3
+                        ◆Control Switches：#0157 hrb rndm02-3 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 4
+                          ◆Control Switches：#0158 hrb rndm02-4 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 5
+                            ◆Control Switches：#0159 hrb rndm02-5 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 6
+                              ◆Control Switches：#0160 hrb rndm02-6 = ON
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：End
+        ◆
+      ：End
+      ◆
+    ：End
+    ◆
+  ：Else
+    ◆Label：HRB ICON SELECT 02 TOP
+    ◆If：hrb rndm01-2 is ON
+      ◆If：bet horse 1 is ON
+        ◆Control Variables：#0078 horse_icon02 = Random 1..6
+        ◆If：horse_icon02 = 1
+          ◆Control Switches：#0156 hrb rndm02-2 = ON
+          ◆
+        ：Else
+          ◆If：horse_icon02 = 2
+            ◆Control Switches：#0157 hrb rndm02-3 = ON
+            ◆
+          ：Else
+            ◆If：horse_icon02 = 3
+              ◆Control Switches：#0158 hrb rndm02-4 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 4
+                ◆Control Switches：#0159 hrb rndm02-5 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 5
+                  ◆Control Switches：#0160 hrb rndm02-6 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 6
+                    ◆Control Switches：#0161 hrb rndm02-7 = ON
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：End
+        ◆
+      ：Else
+        ◆If：bet horse 2 is ON
+          ◆Control Variables：#0078 horse_icon02 = Random 1..6
+          ◆If：horse_icon02 = 1
+            ◆Control Switches：#0155 hrb rndm02-1 = ON
+            ◆
+          ：Else
+            ◆If：horse_icon02 = 2
+              ◆Control Switches：#0157 hrb rndm02-3 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 3
+                ◆Control Switches：#0158 hrb rndm02-4 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 4
+                  ◆Control Switches：#0159 hrb rndm02-5 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 5
+                    ◆Control Switches：#0160 hrb rndm02-6 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 6
+                      ◆Control Switches：#0161 hrb rndm02-7 = ON
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：Else
+          ◆If：bet horse 3 is ON
+            ◆Control Variables：#0078 horse_icon02 = Random 1..6
+            ◆If：horse_icon02 = 1
+              ◆Control Switches：#0155 hrb rndm02-1 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 2
+                ◆Control Switches：#0156 hrb rndm02-2 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 3
+                  ◆Control Switches：#0158 hrb rndm02-4 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 4
+                    ◆Control Switches：#0159 hrb rndm02-5 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 5
+                      ◆Control Switches：#0160 hrb rndm02-6 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 6
+                        ◆Control Switches：#0161 hrb rndm02-7 = ON
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：Else
+            ◆If：bet horse 4 is ON
+              ◆Control Variables：#0078 horse_icon02 = Random 1..6
+              ◆If：horse_icon02 = 1
+                ◆Control Switches：#0155 hrb rndm02-1 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 2
+                  ◆Control Switches：#0156 hrb rndm02-2 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 3
+                    ◆Control Switches：#0157 hrb rndm02-3 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 4
+                      ◆Control Switches：#0159 hrb rndm02-5 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 5
+                        ◆Control Switches：#0160 hrb rndm02-6 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 6
+                          ◆Control Switches：#0161 hrb rndm02-7 = ON
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：Else
+              ◆If：bet horse 5 is ON
+                ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                ◆If：horse_icon02 = 1
+                  ◆Control Switches：#0155 hrb rndm02-1 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 2
+                    ◆Control Switches：#0156 hrb rndm02-2 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 3
+                      ◆Control Switches：#0157 hrb rndm02-3 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 4
+                        ◆Control Switches：#0158 hrb rndm02-4 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 5
+                          ◆Control Switches：#0160 hrb rndm02-6 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 6
+                            ◆Control Switches：#0161 hrb rndm02-7 = ON
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：Else
+                ◆If：bet horse 6 is ON
+                  ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                  ◆If：horse_icon02 = 1
+                    ◆Control Switches：#0155 hrb rndm02-1 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 2
+                      ◆Control Switches：#0156 hrb rndm02-2 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 3
+                        ◆Control Switches：#0157 hrb rndm02-3 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 4
+                          ◆Control Switches：#0158 hrb rndm02-4 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 5
+                            ◆Control Switches：#0159 hrb rndm02-5 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 6
+                              ◆Control Switches：#0161 hrb rndm02-7 = ON
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：Else
+                  ◆If：bet horse 7 is ON
+                    ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                    ◆If：horse_icon02 = 1
+                      ◆Control Switches：#0155 hrb rndm02-1 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 2
+                        ◆Control Switches：#0156 hrb rndm02-2 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 3
+                          ◆Control Switches：#0157 hrb rndm02-3 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 4
+                            ◆Control Switches：#0158 hrb rndm02-4 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 5
+                              ◆Control Switches：#0159 hrb rndm02-5 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 6
+                                ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：End
+        ◆
+      ：End
+      ◆
+    ：Else
+      ◆Label：HRB ICON SELECT 03 TOP
+      ◆If：hrb rndm01-3 is ON
+        ◆If：bet horse 1 is ON
+          ◆Control Variables：#0078 horse_icon02 = Random 1..6
+          ◆If：horse_icon02 = 1
+            ◆Control Switches：#0156 hrb rndm02-2 = ON
+            ◆
+          ：Else
+            ◆If：horse_icon02 = 2
+              ◆Control Switches：#0157 hrb rndm02-3 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 3
+                ◆Control Switches：#0158 hrb rndm02-4 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 4
+                  ◆Control Switches：#0159 hrb rndm02-5 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 5
+                    ◆Control Switches：#0160 hrb rndm02-6 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 6
+                      ◆Control Switches：#0161 hrb rndm02-7 = ON
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：Else
+          ◆If：bet horse 2 is ON
+            ◆Control Variables：#0078 horse_icon02 = Random 1..6
+            ◆If：horse_icon02 = 1
+              ◆Control Switches：#0155 hrb rndm02-1 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 2
+                ◆Control Switches：#0157 hrb rndm02-3 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 3
+                  ◆Control Switches：#0158 hrb rndm02-4 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 4
+                    ◆Control Switches：#0159 hrb rndm02-5 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 5
+                      ◆Control Switches：#0160 hrb rndm02-6 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 6
+                        ◆Control Switches：#0161 hrb rndm02-7 = ON
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：Else
+            ◆If：bet horse 3 is ON
+              ◆Control Variables：#0078 horse_icon02 = Random 1..6
+              ◆If：horse_icon02 = 1
+                ◆Control Switches：#0155 hrb rndm02-1 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 2
+                  ◆Control Switches：#0156 hrb rndm02-2 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 3
+                    ◆Control Switches：#0158 hrb rndm02-4 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 4
+                      ◆Control Switches：#0159 hrb rndm02-5 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 5
+                        ◆Control Switches：#0160 hrb rndm02-6 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 6
+                          ◆Control Switches：#0161 hrb rndm02-7 = ON
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：Else
+              ◆If：bet horse 4 is ON
+                ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                ◆If：horse_icon02 = 1
+                  ◆Control Switches：#0155 hrb rndm02-1 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 2
+                    ◆Control Switches：#0156 hrb rndm02-2 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 3
+                      ◆Control Switches：#0157 hrb rndm02-3 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 4
+                        ◆Control Switches：#0159 hrb rndm02-5 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 5
+                          ◆Control Switches：#0160 hrb rndm02-6 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 6
+                            ◆Control Switches：#0161 hrb rndm02-7 = ON
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：Else
+                ◆If：bet horse 5 is ON
+                  ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                  ◆If：horse_icon02 = 1
+                    ◆Control Switches：#0155 hrb rndm02-1 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 2
+                      ◆Control Switches：#0156 hrb rndm02-2 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 3
+                        ◆Control Switches：#0157 hrb rndm02-3 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 4
+                          ◆Control Switches：#0158 hrb rndm02-4 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 5
+                            ◆Control Switches：#0160 hrb rndm02-6 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 6
+                              ◆Control Switches：#0161 hrb rndm02-7 = ON
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：Else
+                  ◆If：bet horse 6 is ON
+                    ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                    ◆If：horse_icon02 = 1
+                      ◆Control Switches：#0155 hrb rndm02-1 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 2
+                        ◆Control Switches：#0156 hrb rndm02-2 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 3
+                          ◆Control Switches：#0157 hrb rndm02-3 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 4
+                            ◆Control Switches：#0158 hrb rndm02-4 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 5
+                              ◆Control Switches：#0159 hrb rndm02-5 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 6
+                                ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：Else
+                    ◆If：bet horse 7 is ON
+                      ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                      ◆If：horse_icon02 = 1
+                        ◆Control Switches：#0155 hrb rndm02-1 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 2
+                          ◆Control Switches：#0156 hrb rndm02-2 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 3
+                            ◆Control Switches：#0157 hrb rndm02-3 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 4
+                              ◆Control Switches：#0158 hrb rndm02-4 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 5
+                                ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 6
+                                  ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：End
+        ◆
+      ：Else
+        ◆Label：HRB ICON SELECT 04 TOP
+        ◆If：hrb rndm01-4 is ON
+          ◆If：bet horse 1 is ON
+            ◆Control Variables：#0078 horse_icon02 = Random 1..6
+            ◆If：horse_icon02 = 1
+              ◆Control Switches：#0156 hrb rndm02-2 = ON
+              ◆
+            ：Else
+              ◆If：horse_icon02 = 2
+                ◆Control Switches：#0157 hrb rndm02-3 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 3
+                  ◆Control Switches：#0158 hrb rndm02-4 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 4
+                    ◆Control Switches：#0159 hrb rndm02-5 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 5
+                      ◆Control Switches：#0160 hrb rndm02-6 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 6
+                        ◆Control Switches：#0161 hrb rndm02-7 = ON
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：Else
+            ◆If：bet horse 2 is ON
+              ◆Control Variables：#0078 horse_icon02 = Random 1..6
+              ◆If：horse_icon02 = 1
+                ◆Control Switches：#0155 hrb rndm02-1 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 2
+                  ◆Control Switches：#0157 hrb rndm02-3 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 3
+                    ◆Control Switches：#0158 hrb rndm02-4 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 4
+                      ◆Control Switches：#0159 hrb rndm02-5 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 5
+                        ◆Control Switches：#0160 hrb rndm02-6 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 6
+                          ◆Control Switches：#0161 hrb rndm02-7 = ON
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：Else
+              ◆If：bet horse 3 is ON
+                ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                ◆If：horse_icon02 = 1
+                  ◆Control Switches：#0155 hrb rndm02-1 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 2
+                    ◆Control Switches：#0156 hrb rndm02-2 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 3
+                      ◆Control Switches：#0158 hrb rndm02-4 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 4
+                        ◆Control Switches：#0159 hrb rndm02-5 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 5
+                          ◆Control Switches：#0160 hrb rndm02-6 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 6
+                            ◆Control Switches：#0161 hrb rndm02-7 = ON
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：Else
+                ◆If：bet horse 4 is ON
+                  ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                  ◆If：horse_icon02 = 1
+                    ◆Control Switches：#0155 hrb rndm02-1 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 2
+                      ◆Control Switches：#0156 hrb rndm02-2 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 3
+                        ◆Control Switches：#0157 hrb rndm02-3 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 4
+                          ◆Control Switches：#0159 hrb rndm02-5 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 5
+                            ◆Control Switches：#0160 hrb rndm02-6 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 6
+                              ◆Control Switches：#0161 hrb rndm02-7 = ON
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：Else
+                  ◆If：bet horse 5 is ON
+                    ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                    ◆If：horse_icon02 = 1
+                      ◆Control Switches：#0155 hrb rndm02-1 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 2
+                        ◆Control Switches：#0156 hrb rndm02-2 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 3
+                          ◆Control Switches：#0157 hrb rndm02-3 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 4
+                            ◆Control Switches：#0158 hrb rndm02-4 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 5
+                              ◆Control Switches：#0160 hrb rndm02-6 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 6
+                                ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：Else
+                    ◆If：bet horse 6 is ON
+                      ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                      ◆If：horse_icon02 = 1
+                        ◆Control Switches：#0155 hrb rndm02-1 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 2
+                          ◆Control Switches：#0156 hrb rndm02-2 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 3
+                            ◆Control Switches：#0157 hrb rndm02-3 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 4
+                              ◆Control Switches：#0158 hrb rndm02-4 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 5
+                                ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 6
+                                  ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：Else
+                      ◆If：bet horse 7 is ON
+                        ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                        ◆If：horse_icon02 = 1
+                          ◆Control Switches：#0155 hrb rndm02-1 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 2
+                            ◆Control Switches：#0156 hrb rndm02-2 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 3
+                              ◆Control Switches：#0157 hrb rndm02-3 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 4
+                                ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 5
+                                  ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 6
+                                    ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：Else
+          ◆Label：HRB ICON SELECT 05 TOP
+          ◆If：hrb rndm01-5 is ON
+            ◆If：bet horse 1 is ON
+              ◆Control Variables：#0078 horse_icon02 = Random 1..6
+              ◆If：horse_icon02 = 1
+                ◆Control Switches：#0156 hrb rndm02-2 = ON
+                ◆
+              ：Else
+                ◆If：horse_icon02 = 2
+                  ◆Control Switches：#0157 hrb rndm02-3 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 3
+                    ◆Control Switches：#0158 hrb rndm02-4 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 4
+                      ◆Control Switches：#0159 hrb rndm02-5 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 5
+                        ◆Control Switches：#0160 hrb rndm02-6 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 6
+                          ◆Control Switches：#0161 hrb rndm02-7 = ON
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：Else
+              ◆If：bet horse 2 is ON
+                ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                ◆If：horse_icon02 = 1
+                  ◆Control Switches：#0155 hrb rndm02-1 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 2
+                    ◆Control Switches：#0157 hrb rndm02-3 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 3
+                      ◆Control Switches：#0158 hrb rndm02-4 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 4
+                        ◆Control Switches：#0159 hrb rndm02-5 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 5
+                          ◆Control Switches：#0160 hrb rndm02-6 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 6
+                            ◆Control Switches：#0161 hrb rndm02-7 = ON
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：Else
+                ◆If：bet horse 3 is ON
+                  ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                  ◆If：horse_icon02 = 1
+                    ◆Control Switches：#0155 hrb rndm02-1 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 2
+                      ◆Control Switches：#0156 hrb rndm02-2 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 3
+                        ◆Control Switches：#0158 hrb rndm02-4 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 4
+                          ◆Control Switches：#0159 hrb rndm02-5 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 5
+                            ◆Control Switches：#0160 hrb rndm02-6 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 6
+                              ◆Control Switches：#0161 hrb rndm02-7 = ON
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：Else
+                  ◆If：bet horse 4 is ON
+                    ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                    ◆If：horse_icon02 = 1
+                      ◆Control Switches：#0155 hrb rndm02-1 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 2
+                        ◆Control Switches：#0156 hrb rndm02-2 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 3
+                          ◆Control Switches：#0157 hrb rndm02-3 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 4
+                            ◆Control Switches：#0159 hrb rndm02-5 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 5
+                              ◆Control Switches：#0160 hrb rndm02-6 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 6
+                                ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：Else
+                    ◆If：bet horse 5 is ON
+                      ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                      ◆If：horse_icon02 = 1
+                        ◆Control Switches：#0155 hrb rndm02-1 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 2
+                          ◆Control Switches：#0156 hrb rndm02-2 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 3
+                            ◆Control Switches：#0157 hrb rndm02-3 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 4
+                              ◆Control Switches：#0158 hrb rndm02-4 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 5
+                                ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 6
+                                  ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：Else
+                      ◆If：bet horse 6 is ON
+                        ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                        ◆If：horse_icon02 = 1
+                          ◆Control Switches：#0155 hrb rndm02-1 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 2
+                            ◆Control Switches：#0156 hrb rndm02-2 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 3
+                              ◆Control Switches：#0157 hrb rndm02-3 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 4
+                                ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 5
+                                  ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 6
+                                    ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：Else
+                        ◆If：bet horse 7 is ON
+                          ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                          ◆If：horse_icon02 = 1
+                            ◆Control Switches：#0155 hrb rndm02-1 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 2
+                              ◆Control Switches：#0156 hrb rndm02-2 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 3
+                                ◆Control Switches：#0157 hrb rndm02-3 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 4
+                                  ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 5
+                                    ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                    ◆
+                                  ：Else
+                                    ◆If：horse_icon02 = 6
+                                      ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                      ◆
+                                    ：End
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：Else
+            ◆Label：HRB ICON SELECT 06 TOP
+            ◆If：hrb rndm01-6 is ON
+              ◆If：bet horse 1 is ON
+                ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                ◆If：horse_icon02 = 1
+                  ◆Control Switches：#0156 hrb rndm02-2 = ON
+                  ◆
+                ：Else
+                  ◆If：horse_icon02 = 2
+                    ◆Control Switches：#0157 hrb rndm02-3 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 3
+                      ◆Control Switches：#0158 hrb rndm02-4 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 4
+                        ◆Control Switches：#0159 hrb rndm02-5 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 5
+                          ◆Control Switches：#0160 hrb rndm02-6 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 6
+                            ◆Control Switches：#0161 hrb rndm02-7 = ON
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：Else
+                ◆If：bet horse 2 is ON
+                  ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                  ◆If：horse_icon02 = 1
+                    ◆Control Switches：#0155 hrb rndm02-1 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 2
+                      ◆Control Switches：#0157 hrb rndm02-3 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 3
+                        ◆Control Switches：#0158 hrb rndm02-4 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 4
+                          ◆Control Switches：#0159 hrb rndm02-5 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 5
+                            ◆Control Switches：#0160 hrb rndm02-6 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 6
+                              ◆Control Switches：#0161 hrb rndm02-7 = ON
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：Else
+                  ◆If：bet horse 3 is ON
+                    ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                    ◆If：horse_icon02 = 1
+                      ◆Control Switches：#0155 hrb rndm02-1 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 2
+                        ◆Control Switches：#0156 hrb rndm02-2 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 3
+                          ◆Control Switches：#0158 hrb rndm02-4 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 4
+                            ◆Control Switches：#0159 hrb rndm02-5 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 5
+                              ◆Control Switches：#0160 hrb rndm02-6 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 6
+                                ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：Else
+                    ◆If：bet horse 4 is ON
+                      ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                      ◆If：horse_icon02 = 1
+                        ◆Control Switches：#0155 hrb rndm02-1 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 2
+                          ◆Control Switches：#0156 hrb rndm02-2 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 3
+                            ◆Control Switches：#0157 hrb rndm02-3 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 4
+                              ◆Control Switches：#0159 hrb rndm02-5 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 5
+                                ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 6
+                                  ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：Else
+                      ◆If：bet horse 5 is ON
+                        ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                        ◆If：horse_icon02 = 1
+                          ◆Control Switches：#0155 hrb rndm02-1 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 2
+                            ◆Control Switches：#0156 hrb rndm02-2 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 3
+                              ◆Control Switches：#0157 hrb rndm02-3 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 4
+                                ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 5
+                                  ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 6
+                                    ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：Else
+                        ◆If：bet horse 6 is ON
+                          ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                          ◆If：horse_icon02 = 1
+                            ◆Control Switches：#0155 hrb rndm02-1 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 2
+                              ◆Control Switches：#0156 hrb rndm02-2 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 3
+                                ◆Control Switches：#0157 hrb rndm02-3 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 4
+                                  ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 5
+                                    ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                    ◆
+                                  ：Else
+                                    ◆If：horse_icon02 = 6
+                                      ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                      ◆
+                                    ：End
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：Else
+                          ◆If：bet horse 7 is ON
+                            ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                            ◆If：horse_icon02 = 1
+                              ◆Control Switches：#0155 hrb rndm02-1 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 2
+                                ◆Control Switches：#0156 hrb rndm02-2 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 3
+                                  ◆Control Switches：#0157 hrb rndm02-3 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 4
+                                    ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                    ◆
+                                  ：Else
+                                    ◆If：horse_icon02 = 5
+                                      ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                      ◆
+                                    ：Else
+                                      ◆If：horse_icon02 = 6
+                                        ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                        ◆
+                                      ：End
+                                      ◆
+                                    ：End
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：End
+              ◆
+            ：Else
+              ◆Label：HRB ICON SELECT 07 TOP
+              ◆If：hrb rndm01-7 is ON
+                ◆If：bet horse 1 is ON
+                  ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                  ◆If：horse_icon02 = 1
+                    ◆Control Switches：#0156 hrb rndm02-2 = ON
+                    ◆
+                  ：Else
+                    ◆If：horse_icon02 = 2
+                      ◆Control Switches：#0157 hrb rndm02-3 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 3
+                        ◆Control Switches：#0158 hrb rndm02-4 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 4
+                          ◆Control Switches：#0159 hrb rndm02-5 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 5
+                            ◆Control Switches：#0160 hrb rndm02-6 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 6
+                              ◆Control Switches：#0161 hrb rndm02-7 = ON
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：Else
+                  ◆If：bet horse 2 is ON
+                    ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                    ◆If：horse_icon02 = 1
+                      ◆Control Switches：#0155 hrb rndm02-1 = ON
+                      ◆
+                    ：Else
+                      ◆If：horse_icon02 = 2
+                        ◆Control Switches：#0157 hrb rndm02-3 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 3
+                          ◆Control Switches：#0158 hrb rndm02-4 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 4
+                            ◆Control Switches：#0159 hrb rndm02-5 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 5
+                              ◆Control Switches：#0160 hrb rndm02-6 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 6
+                                ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：Else
+                    ◆If：bet horse 3 is ON
+                      ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                      ◆If：horse_icon02 = 1
+                        ◆Control Switches：#0155 hrb rndm02-1 = ON
+                        ◆
+                      ：Else
+                        ◆If：horse_icon02 = 2
+                          ◆Control Switches：#0156 hrb rndm02-2 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 3
+                            ◆Control Switches：#0158 hrb rndm02-4 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 4
+                              ◆Control Switches：#0159 hrb rndm02-5 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 5
+                                ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 6
+                                  ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：Else
+                      ◆If：bet horse 4 is ON
+                        ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                        ◆If：horse_icon02 = 1
+                          ◆Control Switches：#0155 hrb rndm02-1 = ON
+                          ◆
+                        ：Else
+                          ◆If：horse_icon02 = 2
+                            ◆Control Switches：#0156 hrb rndm02-2 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 3
+                              ◆Control Switches：#0157 hrb rndm02-3 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 4
+                                ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 5
+                                  ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 6
+                                    ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：Else
+                        ◆If：bet horse 5 is ON
+                          ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                          ◆If：horse_icon02 = 1
+                            ◆Control Switches：#0155 hrb rndm02-1 = ON
+                            ◆
+                          ：Else
+                            ◆If：horse_icon02 = 2
+                              ◆Control Switches：#0156 hrb rndm02-2 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 3
+                                ◆Control Switches：#0157 hrb rndm02-3 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 4
+                                  ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 5
+                                    ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                    ◆
+                                  ：Else
+                                    ◆If：horse_icon02 = 6
+                                      ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                      ◆
+                                    ：End
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：Else
+                          ◆If：bet horse 6 is ON
+                            ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                            ◆If：horse_icon02 = 1
+                              ◆Control Switches：#0155 hrb rndm02-1 = ON
+                              ◆
+                            ：Else
+                              ◆If：horse_icon02 = 2
+                                ◆Control Switches：#0156 hrb rndm02-2 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 3
+                                  ◆Control Switches：#0157 hrb rndm02-3 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 4
+                                    ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                    ◆
+                                  ：Else
+                                    ◆If：horse_icon02 = 5
+                                      ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                      ◆
+                                    ：Else
+                                      ◆If：horse_icon02 = 6
+                                        ◆Control Switches：#0161 hrb rndm02-7 = ON
+                                        ◆
+                                      ：End
+                                      ◆
+                                    ：End
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：Else
+                            ◆If：bet horse 7 is ON
+                              ◆Control Variables：#0078 horse_icon02 = Random 1..6
+                              ◆If：horse_icon02 = 1
+                                ◆Control Switches：#0155 hrb rndm02-1 = ON
+                                ◆
+                              ：Else
+                                ◆If：horse_icon02 = 2
+                                  ◆Control Switches：#0156 hrb rndm02-2 = ON
+                                  ◆
+                                ：Else
+                                  ◆If：horse_icon02 = 3
+                                    ◆Control Switches：#0157 hrb rndm02-3 = ON
+                                    ◆
+                                  ：Else
+                                    ◆If：horse_icon02 = 4
+                                      ◆Control Switches：#0158 hrb rndm02-4 = ON
+                                      ◆
+                                    ：Else
+                                      ◆If：horse_icon02 = 5
+                                        ◆Control Switches：#0159 hrb rndm02-5 = ON
+                                        ◆
+                                      ：Else
+                                        ◆If：horse_icon02 = 6
+                                          ◆Control Switches：#0160 hrb rndm02-6 = ON
+                                          ◆
+                                        ：End
+                                        ◆
+                                      ：End
+                                      ◆
+                                    ：End
+                                    ◆
+                                  ：End
+                                  ◆
+                                ：End
+                                ◆
+                              ：End
+                              ◆
+                            ：End
+                            ◆
+                          ：End
+                          ◆
+                        ：End
+                        ◆
+                      ：End
+                      ◆
+                    ：End
+                    ◆
+                  ：End
+                  ◆
+                ：End
+                ◆
+              ：Else
+                ◆
+              ：End
+              ◆
+            ：End
+            ◆
+          ：End
+          ◆
+        ：End
+        ◆
+      ：End
+      ◆
+    ：End
+    ◆
+  ：End
+  ◆
+：End
